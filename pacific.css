@@ -21,14 +21,11 @@ nav a {
   /*text-decoration: none; */
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-h2,
-h3 {
+h2,h3 {
   color: #000033;
 }
 
@@ -49,15 +46,12 @@ footer {
   font-size: 90%;
 }
 
-table,
-td,
-th {
+table, td, th {
   border: 2px solid #3399cc;
   border-collapse: collapse;
 }
 
-td,
-th {
+td, th {
   padding: 0.5em;
   text-align: center;
 }
@@ -69,3 +63,13 @@ tr:nth-of-type(odd) {
 .text{
   text-align: left;
 }
+
+label {
+  display: block;
+}
+
+input, textarea{
+  display: block;
+  margin-bottom: 20px;
+}
+
