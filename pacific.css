@@ -21,11 +21,14 @@ nav a {
   /*text-decoration: none; */
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-family: Georgia, "Times New Roman", serif;
 }
 
-h2,h3 {
+h2,
+h3 {
   color: #000033;
 }
 
@@ -44,4 +47,25 @@ footer {
 
 #contact {
   font-size: 90%;
+}
+
+table,
+td,
+th {
+  border: 2px solid #3399cc;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0.5em;
+  text-align: center;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #a6d6e9;
+}
+
+.text{
+  text-align: left;
 }
