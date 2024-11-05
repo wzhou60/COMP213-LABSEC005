@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="pacific.css" />
   </head>
-
   <body>
     <div id="wrapper">
       <header>
@@ -18,30 +17,28 @@
           <li><a href="activities.html">Activities</a></li>
           <li><a href="reservations.html">Reservations</a></li>
         </ul>
-      </nav>
-      <main>
+      </nav><main>
         <h2>Reservations at Pacific Trails</h2>
-
         <h3>Contact Us Today!</h3>
-        <p>Required fields are marked with an asterisk</p>
+        <p></p>
         <form
           action="https://webdevbasics.net/scripts/pacific.php"
           method="post"
         >
-          <label for="myFName">*First Name: </label>
-          <input type="text" id="myFName" name="myFName" required />
+          <label for="myFirstName">*First Name: </label>
+          <input type="text" id="myFirstName" name="myFirstName" required />
 
-          <label for="myLName">*Last Name: </label>
-          <input type="text" id="myLName" name="myLName" required />
+          <label for="myLastName">*Last Name: </label>
+          <input type="text" id="myLastName" name="myLastName" required />
 
           <label for="myEmail">*Email: </label>
           <input type="email" id="myEmail" name="myEmail" required />
 
-          <label for="myPhone">Phone Number: </label>
-          <input type="tel" id="myPhone" name="myPhone" />
+          <label for="myPhoneNumber">Phone Number: </label>
+          <input type="tel" id="myPhoneNumber" name="myPhoneNumber" />
 
-          <label for="myArrival">Arrival Date: </label>
-          <input type="date" id="myArrival" name="myArrival" />
+          <label for="myArrivalDate">Arrival Date: </label>
+          <input type="date" id="myArrivalDate" name="myArrivalDate" />
 
           <label for="myStay">Number of Nights: </label>
           <input
@@ -60,13 +57,11 @@
             rows="4"
             cols="30"
             required
-          >
-          </textarea>
+          ></textarea>
 
           <input type="submit" value="Submit Reservation" />
           <input type="reset" value="Reset Form" />
         </form>
-
         <div id="contact">
           <span class="resort">Pacific Trails Resort</span><br />
           102010 Pacific Trails Road<br />
