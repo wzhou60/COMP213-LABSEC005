@@ -35,6 +35,12 @@ nav ul{
   font-size:1.2em;
 }
 
+nav a {
+  transition-property: color;
+  transition-duration: 3s;
+  transition-timing-function: ease-out;
+}
+
 nav a:link{
   color:#5C7FA3;
 }
@@ -108,6 +114,11 @@ input, textarea {
   margin-bottom:20px;
 }
 
+video{
+  float:right;
+  padding-left:20px;
+}
+
 .text{
   text-align: left;
 }
@@ -158,6 +169,22 @@ input, textarea {
 
 #desktop {
   display:inline;
+}
+
+#gallery{
+  display:grid;
+  grid-template-columns: 30% 70%;
+  justify-items:center;
+  align-items:center;
+}
+
+#thumbnails{
+  text-align:center;
+}
+
+#bigImage{
+  width:100%;
+  height:auto;
 }
 
 /* Tablet View */ 
